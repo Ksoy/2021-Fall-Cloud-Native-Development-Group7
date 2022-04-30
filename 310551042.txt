@@ -1,0 +1,30 @@
+User Story
+
+    As a passenger
+
+    I want to share my live location
+
+    So that my parents or friends could know where I am.
+
+Acceptance Criteria 1
+
+    Given: 
+        User open Uber App's driver detail
+
+    When:
+        User click "Share Status", chooses parents or friends from contact list and select communication app
+    
+    Then:
+        User's live location details are shared with parents or friends
+
+Acceptance Criteria 2
+
+    Given: 
+        Parents or Friends open the communication app
+
+    When:
+        Parents or Friends receive a text with a link and open it
+
+    Then:
+        Smartphone displays user's driver name, vehicle information, and map location in real time
+
