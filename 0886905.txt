@@ -1,0 +1,29 @@
+User Story
+
+    As a passenger,
+
+    I want to pay the fare with credit card.
+
+    So that I can reduce direct contact with the driver, reduce the hassle of paying cash, and speed up pick-up and drop-off times.
+
+Acceptance Criteria 1
+
+    Given:
+        User books a trip and navigates to the billing page.
+
+    When:
+        User chooses to pay by credit card.
+
+    Then:
+        Display credit card payment information fields for users to fill in.
+
+Acceptance Criteria 2
+
+    Given:
+        User chooses to pay by credit card in the billing page.
+
+    When:
+        User fills in all required credit card information fields.
+
+    Then:
+        The trip is confirmed and the user can start enjoying it.
