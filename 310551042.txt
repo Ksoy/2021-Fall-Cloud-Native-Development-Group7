@@ -9,22 +9,44 @@ User Story
 Acceptance Criteria 1
 
     Given: 
-        User open Uber App's driver detail
+        User opens Uber App's driver detail
 
     When:
-        User click "Share Status", choose parents or friends from contact list and select communication app
+        User clicks "Share Status"
     
     Then:
-        User's live location details are shared with parents or friends
-
+        Uber shows contact list
+        
 Acceptance Criteria 2
 
     Given: 
-        Parents or friends open the communication app
+        User navigates to the contact list
 
     When:
-        Parents or friends receive a text with a link and open it
+        User chooses parents or friends from contact list
+    
+    Then:
+        Uber shows communication app list
+        
+Acceptance Criteria 3
+
+    Given: 
+        User navigates to the communication app list
+
+    When:
+        User selects communication app
+    
+    Then:
+        User's live location details are shared with parents or friends
+        
+Acceptance Criteria 4
+
+    Given: 
+        Parents or friends receive a message from the communication app
+
+    When:
+        Parents or friends open the link from message
 
     Then:
-        Smartphone displays user's driver name, vehicle information, and map location in real time
+        Device displays user's driver name, vehicle information, and map location in real time
 
