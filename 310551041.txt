@@ -15,7 +15,8 @@ Acceptance Criteria 1
         user open uber app
 
     Then:
-        uber app should auto detect the location of user
+        uber app should auto detect the location of user 
+        and display nearby drivers on a map
 
 Acceptance Criteria 2
 
@@ -26,6 +27,5 @@ Acceptance Criteria 2
         user click 叫車
 
     Then:
-        uber should query the drivers at the location of user and make a request to them
-
+        Uber notifies drivers near the user's location to pick up passengers
 
