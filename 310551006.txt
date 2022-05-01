@@ -1,0 +1,20 @@
+1
+User Story
+    As a driver, I would like to choose which passenger I serve
+
+Acceptance Criteria 1
+    Given:
+        More than one passengers requires service
+    When:
+        Driver get a simple summary of all requires
+    Then:
+        Driver accept one of those order
+
+Acceptance Criteria 2
+
+    Given:
+        The order establish successfully
+    When:
+        Driver get more detail of the order(gps, special requirement...)
+    Then:
+        Driver go get the passenger
