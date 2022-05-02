@@ -37,7 +37,7 @@ Acceptance Criteria 3
         User selects communication app
     
     Then:
-        User's live location details are shared with parents or friends
+        User sends the uber status message to parents or friends
         
 Acceptance Criteria 4
 
