@@ -1,0 +1,29 @@
+User Story
+
+    As a rider with mobility disabilities,
+
+    I want to easily connect with drivers in vehicles equipped with ramps or lifts.
+
+    So that I can travel safely and convientely.
+
+Acceptance Criteria 1
+
+    Given: 
+        User opens Uber app.
+
+    When:
+        User books a trip with mobility disabilities option.
+
+    Then:
+        Uber app displays nearby drivers with wheelchair-accessible vehicles.
+
+Acceptance Criteria 2
+
+    Given: 
+        User transport with wheelchair-accessible vehicles lately.
+
+    When:
+        User opens Uber app.
+
+    Then:
+        Uber app ask if user want to books trip with mobility disabilities option.
