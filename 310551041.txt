@@ -1,0 +1,31 @@
+User Story
+
+    As a traveler
+
+    I want 在不同的國家旅行中使用uber來叫車
+
+    So that 可以在不同的國家使用同一個app來叫車，而不用每到一個地方都要改用當地的叫車服務
+
+Acceptance Criteria 1
+
+    Given: 
+        user go to a different country
+
+    When:
+        user open uber app
+
+    Then:
+        uber app should auto detect the location of user 
+        and display nearby drivers on a map
+
+Acceptance Criteria 2
+
+    Given: 
+        user open uber app
+
+    When:
+        user click 叫車
+
+    Then:
+        Uber notifies drivers near the user's location to pick up passengers
+
